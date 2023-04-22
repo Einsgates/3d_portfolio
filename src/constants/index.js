@@ -29,12 +29,26 @@ import {
   project1,
   project2,
   project3,
+  xidian,
+  ai,
+  country,
+  cowboy,
+  fighter,
+  mars,
+  moon,
+  robot,
+  urbana,
+  interview,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "education",
+    title: "Education",
   },
   {
     id: "work",
@@ -44,6 +58,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+
 ];
 
 const services = [
@@ -65,6 +80,41 @@ const services = [
   },
 ];
 
+const avatars = [
+  {
+    title: "Me in Urbana",
+    icon: urbana,
+  },
+  {
+    title: "Dressed in Cowboy",
+    icon: cowboy,
+  },
+  {
+    title: "Attend an interview",
+    icon: interview,
+  },
+  {
+    title: "Walk in town",
+    icon: country,
+  },
+  {
+    title: "Settle in Moon",
+    icon: moon,
+  },
+  {
+    title: "Go to Mars",
+    icon: mars,
+  },
+  {
+    title: "Integrate with AI",
+    icon: ai,
+  },
+  {
+    title: "Ultimate Human",
+    icon: fighter,
+  },
+
+]
 const technologies = [
   {
     name: "HTML 5",
@@ -155,6 +205,40 @@ const experiences = [
       "Solved the heartbeat mechanism problem, checked device functionality regularly, and automated asynchronous login tasks for offline devices in a poor network environment.",
       "Designed a suitable heartbeat packet in the application layer by starting a timer in the program, making the connection more stable and the system more robust.",
     ],
+  },
+
+];
+
+const educations = [
+  {
+    degree: "Master in Computer Science",
+    university_name: "Universty of Illinois at Urbana Champaign",
+    icon: uiuc,
+    iconBg: "#34568B",
+    date: "January 2024 - May 2025",
+    honors: "",
+    gpa: "4.0",
+    courses: "plan to take: Game Development, Machine Learning, Deep Learning, Data Mining, Computer Vision..."
+  },
+  {
+    degree: "Bachelor in Mathematics + Computer Science",
+    university_name: "Universty of Illinois at Urbana Champaign",
+    icon: uiuc,
+    iconBg: "#34568B",
+    date: "August 2021 - May 2023",
+    honors: "Dean's List (top 10%)",
+    gpa: "3.88",
+    courses: "Algorithms, Numerical Analysis, System Programming, Web Programming, Database Systems, Real Analysis, Applied Complex Variables, Introduction to Combinatorics..."
+  },
+  {
+    degree: "Computer Science (Transferred out)",
+    university_name: "Xidian University",
+    icon: xidian,
+    iconBg: "#FFFFFF",
+    date: "August 2019 - June 2021",
+    honors: "First Prize Scholarship (top 5%)",
+    gpa: "3.70",
+    courses: "Data Structures, Computer Newtworking, Operating Systems, Computer Architecture, Java Programming, C Programming, Calculus, Linear Algebra, Probability Theorem..."
   },
 
 ];
@@ -252,4 +336,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services,avatars, technologies, experiences, testimonials, projects, educations };

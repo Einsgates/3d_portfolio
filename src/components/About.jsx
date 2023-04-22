@@ -11,7 +11,7 @@ const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className='xs:w-[250px] w-full'>
       <motion.dev
-        variants={fadeIn("right", "spring", 0.5 * index)}
+        variants={fadeIn("right", "spring", 0.1 * index)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
         <div
@@ -48,7 +48,7 @@ const About = () => {
         and collaborate closely with clients to create efficient, saclable, and user-frienldly
         solutions that solve real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
-      <div className='mt-4 w-[500px] border p-2'>
+      <div className='mt-4 border p-2'>
         <p className={styles.heroSubText}>Personal Info</p>
         <p>email: jh79@illinois.edu</p>
         <p>mobile: 217-200-0555</p>

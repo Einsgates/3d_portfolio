@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import uiuc from "./company/uiuc.png";
 import uniview from './company/uniview.png';
 import cme from './company/cme.png';
+import xidian from "./company/xidian.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -38,7 +39,25 @@ import project1 from "./project1.png";
 import project2 from "./project2.png";
 import project3 from "./project3.png";
 
+import ai from "./avatar/ai.jpg";
+import country from "./avatar/country.jpg";
+import cowboy from "./avatar/cowboy.jpg";
+import fighter from "./avatar/fighter.jpg";
+import mars from "./avatar/mars.jpg";
+import moon from "./avatar/moon.jpg";
+import robot from "./avatar/robot.jpg";
+import urbana from "./avatar/urbana.jpg";
+import interview from "./avatar/interview.jpg";
 export {
+  interview,
+  ai,
+  country,
+  cowboy,
+  fighter,
+  mars,
+  moon,
+  robot,
+  urbana,
   hjy,
   logo,
   backend,
@@ -68,6 +87,7 @@ export {
   uiuc,
   uniview,
   cme,
+  xidian,
   carrent,
   jobit,
   tripguide,
