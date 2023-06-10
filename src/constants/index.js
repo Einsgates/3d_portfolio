@@ -173,20 +173,22 @@ const technologies = [
 const experiences = [
   {
     title: "Software Engineer Intern",
-    company_name: "CME Group",
+    company_name: "CME Group, Innovation Center",
     icon: cme,
     iconBg: "#34568B",
-    date: "May 2023 - August 2023",
+    date: "May 2023 - Present",
     points: [
-      "Incoming Software Engineer Intern",
+      "Develop a comprehensive suite of client Transition Cost Analysis (TCA) via Google GCP, providing centralized, customizable analytics for all US Treasury trades.",
+      "Design an enterprise-level REST API in the CME Group marketplace using Node.js handling 2000 requests daily.",
+      "Optimize CME codebase by 10% using a distributed system, configurable thread pool, and Java for backend.",
     ],
   },
   {
     title: "Course Assistant",
-    company_name: "University of Illinois at Urbana Champaign",
+    company_name: "University of Illinois, CS Department",
     icon: uiuc,
     iconBg: "#34568B",
-    date: "Jan 2023 - Now",
+    date: "Jan 2023 - May 2023",
     points: [
       "Monitor student process: answer each student's question about their homework and machine problem (MP).",
       "Help design homework and MP and use Python Colab notebook.",
@@ -196,7 +198,7 @@ const experiences = [
   },
   {
     title: "Software Engineer Intern",
-    company_name: "Uniview",
+    company_name: "Uniview, Java Backend Team",
     icon: uniview,
     iconBg: "#C3447A",
     date: "Jan 2021 - March 2021",
@@ -246,27 +248,27 @@ const educations = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Jiayuan proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Jiayuan is a very professional software developer and developed many useful and interesting project that help UIUC students.",
+    name: "Yutong Li",
+    designation: "Student",
+    company: "UIUC",
+    image: "https://media.licdn.com/dms/image/D5603AQE31aWjDpUkFA/profile-displayphoto-shrink_100_100/0/1671148988948?e=1688601600&v=beta&t=fX4a468VGp8zIdcODg665uQOzryqt6nOSauJX0lGOWA",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Jiayuan does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I come to know Jiayuan when he invited me to his house for a hotpot dinner, he is very friendly and a pretty nice guy!",
+    name: "Chenxu Liu",
+    designation: "Student",
+    company: "UIUC",
+    image: "https://media.licdn.com/dms/image/D4E35AQFc2OIumcnRAw/profile-framedphoto-shrink_100_100/0/1643940723910?e=1686938400&v=beta&t=MlDxPK3td7CDlquWkXYmvnAGUbQJrq4LPR-xCTF6Rgk",
   },
   {
     testimonial:
-      "After Jiayuan optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Jiayuan is very passionate on what he is doing and can bring joy, happiness, and optimistic life to everyone.",
+    name: "Puyu Yang",
+    designation: "Student",
+    company: "UIUC",
+    image: "https://media.licdn.com/dms/image/D4D35AQGtU8gICzxxig/profile-framedphoto-shrink_100_100/0/1680069626601?e=1686938400&v=beta&t=zeTtf1B5YMdlInq7WOwG2i5uWQ7zemkqAhI9xud5PEA",
   },
 ];
 
