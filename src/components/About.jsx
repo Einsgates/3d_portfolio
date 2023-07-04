@@ -37,7 +37,7 @@ const About = () => {
     <>
       <motion.dev variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.dev>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
@@ -52,9 +52,12 @@ const About = () => {
         <p className={styles.heroSubText}>Personal Info</p>
         <p>email: jh79@illinois.edu</p>
         <p>mobile: 217-200-0555</p>
-        <a className='mt-2 underline' href='https://github.com/Einsgates/MyResume/blob/master/Jiayuan_Hong_2023_SDE_New_Graduate.pdf' target="_blank">Resume for 2023 New Graduate</a>
+        <a className='mt-2 underline' href='https://github.com/Einsgates/MyResume/blob/master/Jiayuan_Hong_2023_SDE_New_Graduate%20(1).pdf' target="_blank">2023 New Graduate</a>
         <p></p>
-        <a className='mt-2 underline' href='https://github.com/Einsgates/MyResume/blob/master/Jiayuan_Hong_2024_SDE_Intern.pdf' target="_blank">Resume for 2024 Intern</a>
+        <a className='mt-2 underline' href='https://github.com/Einsgates/MyResume/blob/master/Jiayuan_Hong_2023_Fall_Intern_Coop.pdf' target="_blank">2023 Fall Intern/Co-op</a>
+        <p></p>
+        <a className='mt-2 underline' href='https://github.com/Einsgates/MyResume/blob/master/Jiayuan_Hong_2024_Summer_SDE_Intern.pdf' target="_blank">2024 Summer Intern</a>
+        <p></p>
       </div>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
