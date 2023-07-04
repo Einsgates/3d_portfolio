@@ -178,9 +178,11 @@ const experiences = [
     iconBg: "#34568B",
     date: "May 2023 - Present",
     points: [
-      "Develop a comprehensive suite of client Transition Cost Analysis (TCA) via Google GCP, providing centralized, customizable analytics for all US Treasury trades.",
+      "Build the CME CAML code repo with tools for sending messages and a buffer between the client’s application and Kafka/PubSub messaging services. Standardize sending information across platforms and focus on Present Layer.",
+      "Individually design a highly efficient and scalable JSON Schema Validation Tool for millions of data schema using Java, improving the validation process by 17%.",
+      "Develop a comprehensive client Transition Cost Analysis (TCA) suite via Google GCP, providing centralized, customizable analytics for all US Treasury trades.",
       "Design an enterprise-level REST API in the CME Group marketplace using Node.js handling 2000 requests daily.",
-      "Optimize CME codebase by 10% using a distributed system, configurable thread pool, and Java for backend.",
+      "Optimize CME codebase by 10% using a distributed system, configurable thread pool, and Java for backend."
     ],
   },
   {
@@ -219,7 +221,7 @@ const educations = [
     iconBg: "#34568B",
     date: "January 2024 - May 2025",
     honors: "",
-    gpa: "4.0",
+    gpa: "N/A",
     courses: "plan to take: Game Development, Machine Learning, Deep Learning, Data Mining, Computer Vision..."
   },
   {
@@ -229,7 +231,7 @@ const educations = [
     iconBg: "#34568B",
     date: "August 2021 - May 2023",
     honors: "Dean's List (top 10%)",
-    gpa: "3.88",
+    gpa: "3.80",
     courses: "Algorithms, Numerical Analysis, System Programming, Web Programming, Database Systems, Real Analysis, Applied Complex Variables, Introduction to Combinatorics..."
   },
   {
@@ -338,4 +340,4 @@ const projects = [
   },
 ];
 
-export { services,avatars, technologies, experiences, testimonials, projects, educations };
+export { services, avatars, technologies, experiences, testimonials, projects, educations };
