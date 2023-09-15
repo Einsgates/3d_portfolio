@@ -48,6 +48,12 @@ import moon from "./avatar/moon.jpg";
 import robot from "./avatar/robot.jpg";
 import urbana from "./avatar/urbana.jpg";
 import interview from "./avatar/interview.jpg";
+
+import yutong from "./yutong.jpg";
+import chenxu from "./chenxu.jpg";
+import puyu from "./puyu.jpg";
+
+
 export {
   interview,
   ai,
@@ -94,4 +100,7 @@ export {
   project1,
   project2,
   project3,
+  yutong,
+  chenxu,
+  puyu
 };

@@ -43,23 +43,27 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software engineer with experience in TypeScript and JavaScript, and
-        expertised in frameworks like React, Node.js, and Vite.js. I'm a quick learner
+        I'm a skilled software engineer with experience in Java and JavaScript, and
+        expertised in frameworks like React, Node.js, and Spring Boot. I'm a quick learner
         and collaborate closely with clients to create efficient, saclable, and user-frienldly
-        solutions that solve real-world problems. Let's work together to bring your ideas to life!
+        solutions that solve real-world problems. I am both goal-oriented and resourceful.
+        I will always focus on moving forward, and I will take responsibility for challenges
+        and problems and when they occur! Let's work together to bring your ideas to life!
       </motion.p>
-      <div className='mt-4 border p-2'>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='text-[10px] mt-5 text-secondary'
+      >
+        Last update: 09/14/2023
+      </motion.p>
+      <div className='mt-6 border p-2'>
         <p className={styles.heroSubText}>Personal Info</p>
         <p>email: jh79@illinois.edu</p>
         <p>mobile: 217-200-0555</p>
-        <a className='mt-2 underline' href='https://github.com/Einsgates/MyResume/blob/master/Jiayuan_Hong_2023_SDE_New_Graduate%20(1).pdf' target="_blank">2023 New Graduate</a>
-        <p></p>
-        <a className='mt-2 underline' href='https://github.com/Einsgates/MyResume/blob/master/Jiayuan_Hong_2023_Fall_Intern_Coop.pdf' target="_blank">2023 Fall Intern/Co-op</a>
-        <p></p>
         <a className='mt-2 underline' href='https://github.com/Einsgates/MyResume/blob/master/Jiayuan_Hong_2024_Summer_SDE_Intern.pdf' target="_blank">2024 Summer Intern</a>
         <p></p>
       </div>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-10 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

@@ -39,6 +39,9 @@ import {
   robot,
   urbana,
   interview,
+  yutong,
+  chenxu,
+  puyu
 } from "../assets";
 
 export const navLinks = [
@@ -75,7 +78,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Quant Trader",
     icon: creator,
   },
 ];
@@ -173,16 +176,14 @@ const technologies = [
 const experiences = [
   {
     title: "Software Engineer Intern",
-    company_name: "CME Group, Innovation Center",
+    company_name: "CME Group, Architecture and Product Management",
     icon: cme,
     iconBg: "#34568B",
-    date: "May 2023 - Present",
+    date: "May 2023 - Aug 2023",
     points: [
-      "Build the CME CAML code repo with tools for sending messages and a buffer between the client’s application and Kafka/PubSub messaging services. Standardize sending information across platforms and focus on Present Layer.",
-      "Individually design a highly efficient and scalable JSON Schema Validation Tool for millions of data schema using Java, improving the validation process by 17%.",
-      "Develop a comprehensive client Transition Cost Analysis (TCA) suite via Google GCP, providing centralized, customizable analytics for all US Treasury trades.",
-      "Design an enterprise-level REST API in the CME Group marketplace using Node.js handling 2000 requests daily.",
-      "Optimize CME codebase by 10% using a distributed system, configurable thread pool, and Java for backend."
+      "Designed a high volatility trading algorithm that detected spikes and trend breakers with 95% accuracy.",
+      "Developed a configurable middleware using Kafka and Pub/Sub to seamlessly transfer messages between systems and standardize information sharing across platforms, leading to a 40% increase in data transferring.",
+      "Created a reliable and efficient JSON Schema 7 Bundler to recursively combine multiple schemas and present options to store documents and serialized objects, improving the validation process by 17%."
     ],
   },
   {
@@ -192,15 +193,13 @@ const experiences = [
     iconBg: "#34568B",
     date: "Jan 2023 - May 2023",
     points: [
-      "Monitor student process: answer each student's question about their homework and machine problem (MP).",
-      "Help design homework and MP and use Python Colab notebook.",
-      "Assist student one-to-one debug their code and provide high-level suggestions.",
-      "Use MySQL, MongoDB, and Neo4j to write queries to check students' answers.",
+      "Designed homework assignments and used MySQL to write queries to check and evaluate students’ answers.",
+      "Conducted weekly office hours to assist students one-on-one and provide guidance to debug their code effectively.",
     ],
   },
   {
     title: "Software Engineer Intern",
-    company_name: "Uniview, Java Backend Team",
+    company_name: "Zhejiang Uniview Technologies , Java Backend Team",
     icon: uniview,
     iconBg: "#C3447A",
     date: "Jan 2021 - March 2021",
@@ -215,35 +214,35 @@ const experiences = [
 
 const educations = [
   {
-    degree: "Master in Computer Science",
+    degree: "M.S. in Computer Science",
     university_name: "Universty of Illinois at Urbana Champaign",
     icon: uiuc,
     iconBg: "#34568B",
-    date: "January 2024 - May 2025",
+    date: "Graduate May 2025",
     honors: "",
-    gpa: "N/A",
+    gpa: "4.0",
     courses: "plan to take: Game Development, Machine Learning, Deep Learning, Data Mining, Computer Vision..."
   },
   {
-    degree: "Bachelor in Mathematics + Computer Science",
+    degree: "B.S. in Computer Science and Mathematics",
     university_name: "Universty of Illinois at Urbana Champaign",
     icon: uiuc,
     iconBg: "#34568B",
-    date: "August 2021 - May 2023",
+    date: "Graduated May 2023",
     honors: "Dean's List (top 10%)",
     gpa: "3.80",
     courses: "Algorithms, Numerical Analysis, System Programming, Web Programming, Database Systems, Real Analysis, Applied Complex Variables, Introduction to Combinatorics..."
   },
-  {
-    degree: "Computer Science (Transferred out)",
-    university_name: "Xidian University",
-    icon: xidian,
-    iconBg: "#FFFFFF",
-    date: "August 2019 - June 2021",
-    honors: "First Prize Scholarship (top 5%)",
-    gpa: "3.70",
-    courses: "Data Structures, Computer Newtworking, Operating Systems, Computer Architecture, Java Programming, C Programming, Calculus, Linear Algebra, Probability Theorem..."
-  },
+  // {
+  //   degree: "Computer Science (Transferred out)",
+  //   university_name: "Xidian University",
+  //   icon: xidian,
+  //   iconBg: "#FFFFFF",
+  //   date: "August 2019 - June 2021",
+  //   honors: "First Prize Scholarship (top 5%)",
+  //   gpa: "3.70",
+  //   courses: "Data Structures, Computer Newtworking, Operating Systems, Computer Architecture, Java Programming, C Programming, Calculus, Linear Algebra, Probability Theorem..."
+  // },
 
 ];
 
@@ -252,25 +251,25 @@ const testimonials = [
     testimonial:
       "Jiayuan is a very professional software developer and developed many useful and interesting project that help UIUC students.",
     name: "Yutong Li",
-    designation: "Student",
-    company: "UIUC",
-    image: "https://media.licdn.com/dms/image/D5603AQE31aWjDpUkFA/profile-displayphoto-shrink_100_100/0/1671148988948?e=1688601600&v=beta&t=fX4a468VGp8zIdcODg665uQOzryqt6nOSauJX0lGOWA",
+    designation: "SDE",
+    company: "Amazon",
+    image: yutong,
   },
   {
     testimonial:
       "I come to know Jiayuan when he invited me to his house for a hotpot dinner, he is very friendly and a pretty nice guy!",
     name: "Chenxu Liu",
-    designation: "Student",
-    company: "UIUC",
-    image: "https://media.licdn.com/dms/image/D4E35AQFc2OIumcnRAw/profile-framedphoto-shrink_100_100/0/1643940723910?e=1686938400&v=beta&t=MlDxPK3td7CDlquWkXYmvnAGUbQJrq4LPR-xCTF6Rgk",
+    designation: "SDE",
+    company: "Snowflake",
+    image: chenxu
   },
   {
     testimonial:
       "Jiayuan is very passionate on what he is doing and can bring joy, happiness, and optimistic life to everyone.",
     name: "Puyu Yang",
-    designation: "Student",
-    company: "UIUC",
-    image: "https://media.licdn.com/dms/image/D4D35AQGtU8gICzxxig/profile-framedphoto-shrink_100_100/0/1680069626601?e=1686938400&v=beta&t=zeTtf1B5YMdlInq7WOwG2i5uWQ7zemkqAhI9xud5PEA",
+    designation: "SDE",
+    company: "John Deere",
+    image: puyu
   },
 ];
 

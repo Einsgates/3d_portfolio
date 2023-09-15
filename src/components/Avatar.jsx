@@ -44,7 +44,7 @@ const Avatar = () => {
       <div className=''>
         And these pictures tell the dream and plan of me: from a student to an explorer of Mars and AI. 
       </div>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-10 flex flex-wrap gap-10'>
         {avatars.map((avatar, index) => (
           <ServiceCard key={avatar.title} index={index} {...avatar} />
         ))}
