@@ -214,14 +214,14 @@ const experiences = [
 
 const educations = [
   {
-    degree: "M.S. in Computer Science",
+    degree: "Master in Computer Science",
     university_name: "Universty of Illinois at Urbana Champaign",
     icon: uiuc,
     iconBg: "#34568B",
     date: "Graduate May 2025",
     honors: "",
-    gpa: "4.0",
-    courses: "plan to take: Game Development, Machine Learning, Deep Learning, Data Mining, Computer Vision..."
+    gpa: "",
+    courses: "Applied Parallel Programming, Computer Organization Design, High Frequency Trading Tech..."
   },
   {
     degree: "B.S. in Computer Science and Mathematics",
